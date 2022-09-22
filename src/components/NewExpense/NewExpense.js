@@ -11,7 +11,7 @@ function NewExpense(props) {
   function onSubmitHandler(enteredData) {
     const expenseData = {
       ...enteredData,
-      id: Math.random(),
+      key: Math.random(),
     };
 
     props.onAddExpense(expenseData);

@@ -1,0 +1,22 @@
+.expense-item-container{
+    display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5rem;
+  margin: 1rem 0;
+  background-color: #ffc8dd;
+  width: 75%;
+  border-radius: 10px;
+  border: 1px solid #313b72;
+}
+
+.amount-container{
+   border: 1px solid #313b72;
+    background-color: #bde0fe;
+    border-radius: 5px;
+    width: 5rem;
+    height: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
