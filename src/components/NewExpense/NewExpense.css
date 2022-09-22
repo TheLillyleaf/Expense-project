@@ -1,0 +1,26 @@
+.newExpense{
+    min-height: 15rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    width: 70%;
+    
+}
+
+button{
+    background-color: #ffafcc;
+    border: none;
+    color: black;
+    text-align: center;
+    font-size: large;
+    margin: 2%;
+    height: 2rem;
+    width: 10rem;
+
+
+
+}
+button:hover{
+    background-color: #bde0fe;
+}
